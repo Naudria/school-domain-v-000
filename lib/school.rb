@@ -7,9 +7,9 @@ class School
   @roster = Hash.new()
   end
 
-  def add_student(name, grade)
+  def add_student(studentname, grade)
     if @roster[grade]
-      @roster[grade] << name
+      @roster[grade] << student_name
   end
 
 end
