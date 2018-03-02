@@ -1,8 +1,10 @@
 # code here!
 class School
-  roster = {}
-  
-def initialize(name)
+  attr_reader :name, :roster
+
+  def initialize(name)
   @name = name
-end
+  @roster = Hash.new()
+  end
+
 end
