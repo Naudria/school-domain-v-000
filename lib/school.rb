@@ -25,3 +25,5 @@ def sort
     @roster[grade] = name.sort {|a,b| a<=>b}
 end
 end
+
+end
